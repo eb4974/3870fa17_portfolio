@@ -7,6 +7,24 @@ nav {border: 1px solid blue;}
   #portfoliopage .mainnavigation li:nth-child(3){background-color: #300E97;}
   #contactherpage .mainnavigation li:nth-child(4){background-color: #300E97;}
 
+  #snowflakeContainer {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+  }
+  .snowflake {
+      padding-left: 15px;
+      font-family: cursive;
+      font-size: 24px;
+      line-height: 24px;
+      position: fixed;
+      color: ##00ffff;
+      user-select: none;
+      z-index: 100;
+  }
+  .snowflake:hover {
+      cursor: default;
+  }
 .class { background-color: #f4ff0ff; }
   .fa {
       padding: 10px;
@@ -22,7 +40,7 @@ nav {border: 1px solid blue;}
 body {
     background-color: #fffff0;
     padding: 20px;
-    font-family: fantasy;
+    font-family: cursive;
 }
 
 
@@ -32,8 +50,36 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+text-align: center;
+    font-family: 'Griffy', cursive;
+    font-size: 70px;
+    color: MediumSlateBlue;
+     text-shadow: 4px 3px lavender;
     word-break: break-all;
+}
+
+h2 {
+text-align: center;
+    font-family: 'Griffy', cursive;
+    font-size: 50px;
+color: SlateBlue;
+ text-shadow: 3px 2px lavender;
+    word-break: break-all;
+}
+
+h3 {
+text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+color: MediumPurple;
+ text-shadow: 3px 2px lavender;
+    word-break: break-all;
+}
+p{
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+    font-style: normal;
+      color: indigo;
 }
 
 .row {
@@ -112,7 +158,7 @@ h1 {
   }
 
   /*feedback page */
-  .tealbg {background-color: teal ;}
+  .lavenderbg {background-color: lavender ;}
 
   .feedbackform {padding: 100px;}
 
